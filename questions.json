@@ -205,10 +205,39 @@
     "answer": "Sweater"
   },
   {
-    "question": "",
-    "choices": ["","","",""],
-    "answer": ""
+    "question": "What was the name of Miss Patty's one woman show?",
+    "choices": ["Buckle Up, I'm Patty","Hold On, It's Patty","Patty's One Woman Show","All About Patty"],
+    "answer": "Buckle Up, I'm Patty"
   },
- 
-]
+  {
+    "question": "Where did Christopher and Lorelai get married?",
+    "choices": ["Greece","Stars Hollow","Paris","Hartford"],
+    "answer": "Paris"
+  },
+  {
+    "question": "What did Lorelai cook to get Rory to come over when she got back from France?",
+    "choices": ["Nachos","Pizza","Salmon","Snails"],
+    "answer": "Snails"
+  },
+  {
+    "question": "What musical group does Lorelai qoute to Jess when he tries to pick up Rory?",
+    "choices": ["Beach Boys","Beatles","Korn","The Bangles"],
+    "answer": "Beach Boys"
+  },
+  {
+    "question": "What magnet does Lindsey buy Rory in the anecdote?",
+    "choices": ["Mark Twain","Abe Lincoln","Paul Bunyun","Elvis"],
+    "answer": "Mark Twain"
+  },
+  {
+    "question": "Rory goes on a date with Robert, what fake last name does she give him?", 
+    "choices": ["Smith","Grimaldi","Johnson","Bronski"],
+    "answer": "Grimaldi"
+  },
+  {
+    "question": "What concert did Jess take Rory to after the hockey game?",
+    "choices": ["The Pixies", "Distiller", "PJ Harvey", "Maroon 5"],
+    "answer": "Distiller"
+  }
 
+]
