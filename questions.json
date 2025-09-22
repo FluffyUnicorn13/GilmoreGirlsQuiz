@@ -238,6 +238,11 @@
     "question": "What concert did Jess take Rory to after the hockey game?",
     "choices": ["The Pixies", "Distiller", "PJ Harvey", "Maroon 5"],
     "answer": "Distiller"
+  },
+  {
+    "question": "Who is Emily's fashion consultant?",
+    "choices": ["Anna", "Miss Celine", "Ms. Patty", "Lulu"],
+    "answers": "Miss Celine"
   }
-
 ]
+
