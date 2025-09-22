@@ -1,0 +1,256 @@
+/* =======================================
+   GLOBAL STYLING
+======================================= */
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Buttons */
+button {
+    display: block;
+    width: 50%;
+    max-width: 250px;
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    background-color: #7b1fa2;
+    color: white;
+    transition: background 0.3s ease;
+}
+button:hover {
+    background-color: #4a148c;
+}
+
+/* Common container styling */
+.container, .quiz-container, .results-container {
+    max-width: 800px;
+    width: 90%;
+    text-align: center;
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+/* =======================================
+   LOGIN PAGE
+======================================= */
+body.login-page {
+    background: url("images/StarsHollowBG.avif") no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(92, 60, 146, 0.3);
+    z-index: 0;
+}
+
+.login-container {
+    position: relative;
+    z-index: 1;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 2rem;
+    border-radius: 15px;
+    max-width: 400px;
+    width: 90%;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+/* Quote */
+.quote {
+    font-style: italic;
+    color: #444;
+    margin-bottom: 1.5rem;
+    font-size: 0.9rem;
+}
+
+/* Coffee cup logo */
+.coffee-cup {
+    width: 100px;
+    margin-bottom: 1rem;
+}
+
+/* =======================================
+   QUIZ PAGE
+======================================= */
+body.quiz-page {
+    background: #fdf6ff; /* fallback */
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Quiz container */
+.quiz-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 800px;
+}
+
+/* Question & Quote screens */
+#question-area, #quote-area {
+    width: 90%;
+    max-width: 500px;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: background 0.3s ease;
+}
+
+/* Alternating pastel backgrounds */
+#question-area:nth-child(odd),
+#quote-area:nth-child(odd) {
+    background-color: #fff8f0; /* pastel peach */
+}
+#question-area:nth-child(even),
+#quote-area:nth-child(even) {
+    background-color: #f4e8ff; /* pastel lavender */
+}
+
+/* Question text */
+#question-text {
+    color: #5c3c92;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+/* Choices */
+.choice-btn {
+    display: block;
+    margin: 0.5rem auto;
+    padding: 0.6rem 1rem;
+    width: 70%;
+    max-width: 300px;
+    border: 2px solid #d6c9ff;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    background-color: #fff;
+    color: #5c3c92;
+    transition: all 0.2s;
+}
+
+.choice-btn:hover:not(:disabled) {
+    background-color: #f4ebff;
+}
+
+.choice-btn.correct {
+    background-color: #b6e3b6;
+    border-color: #4caf50;
+    color: #2a4d2a;
+}
+
+.choice-btn.wrong {
+    background-color: #f9b4b4;
+    border-color: #f44336;
+    color: #4d1f1f;
+}
+
+.choice-btn:disabled {
+    cursor: not-allowed;
+    opacity: 0.7;
+}
+
+/* Feedback text */
+#feedback {
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Next/Quit buttons */
+#next-btn, #quit-btn, #quote-next-btn {
+    width: 60%;
+    max-width: 250px;
+    margin-top: 1rem;
+}
+
+#next-btn, #quote-next-btn {
+    background-color: #ffe07d;
+    color: #000;
+}
+#next-btn:hover, #quote-next-btn:hover {
+    background-color: #ffecb3;
+}
+
+#quit-btn {
+    background-color: #e1bee7;
+}
+#quit-btn:hover {
+    background-color: #d1aee7;
+}
+
+/* Quote styling */
+#quote-text {
+    font-style: italic;
+    color: #555;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+#quote-image {
+    display: block;
+    margin: 1rem auto;
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+/* =======================================
+   RESULTS PAGE
+======================================= */
+body.results-page {
+    background: url("images/Background.jpg") no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Results container with border */
+.results-container {
+    background: rgba(255, 255, 255, 0.9);
+    border: 8px solid #7b1fa2;
+    border-radius: 12px;
+    padding: 3rem;
+    max-width: 500px;
+    width: 90%;
+    text-align: center;
+    color: #5c3c92;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}
+
+/* Score text */
+#score-text {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+/* Download & Restart buttons */
+#download-btn, .results-container button {
+    width: 60%;
+    max-width: 250px;
+    margin: 1rem auto;
+}
