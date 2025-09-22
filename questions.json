@@ -70,7 +70,7 @@
     "answer": "Charleston"
   },
   {
-    "question":"What did Lorelai name the fish she caught when she went fishing with Max?", 
+    "question":"What did Lorelai name the fish she caught when she went fishing with Alex?", 
     "choices": ["Lane", "Anna", "Shirley", "Jane"],
     "answer": "Jane"
   },
@@ -245,5 +245,6 @@
     "answer": "Miss Celine"
   }
 ]
+
 
 
