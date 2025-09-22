@@ -1,88 +1,103 @@
-let questions = [];
-let quotes = [];
+// =============================
+// Quiz Data
+// =============================
+const questions = [
+  {
+    question: "Who runs Luke's Diner?",
+    choices: ["Lorelai", "Luke", "Rory", "Sookie"],
+    answer: 1
+  },
+  {
+    question: "What town do the Gilmore girls live in?",
+    choices: ["Stars Hollow", "Hartford", "Springfield", "Capitol City"],
+    answer: 0
+  },
+  {
+    question: "What is Rory's first job?",
+    choices: ["Babysitter", "Waitress", "Reporter", "Student Intern"],
+    answer: 3
+  },
+  // Add more questions as needed
+];
+
+// =============================
+// DOM Elements
+// =============================
+const questionArea = document.getElementById("question-area");
+const questionText = document.getElementById("question-text");
+const choices = [
+  document.getElementById("choice1"),
+  document.getElementById("choice2"),
+  document.getElementById("choice3"),
+  document.getElementById("choice4")
+];
+const nextBtn = document.getElementById("next-btn");
+
 let currentQuestionIndex = 0;
-let score = 0;
-let answeredCount = 0;
 
-// Load questions + quotes
-Promise.all([
-  fetch("questions.json").then(res => res.json()),
-  fetch("quotes.json").then(res => res.json())
-]).then(([loadedQuestions, loadedQuotes]) => {
-  questions = shuffleArray(loadedQuestions);
-  quotes = loadedQuotes;
-  showQuestion();
-});
+// =============================
+// Functions
+// =============================
+function loadQuestion(index) {
+  const q = questions[index];
+  questionText.textContent = q.question;
 
-// Shuffle helper
-function shuffleArray(arr) {
-  return arr.sort(() => Math.random() - 0.5);
-}
+  // Populate choices
+  for (let i = 0; i < choices.length; i++) {
+    choices[i].textContent = q.choices[i];
+    choices[i].classList.remove("correct", "wrong");
+    choices[i].disabled = false;
+  }
 
-function showQuestion() {
-  const question = questions[currentQuestionIndex];
-  document.getElementById("question-text").textContent = question.question;
-  const choicesContainer = document.getElementById("choices-container");
-  choicesContainer.innerHTML = "";
-  document.getElementById("feedback").textContent = "";
-  document.getElementById("next-btn").disabled = true;
-
-  const shuffledChoices = shuffleArray([...question.choices]);
-  shuffledChoices.forEach(choice => {
-    const button = document.createElement("button");
-    button.textContent = choice;
-    button.classList.add("choice-btn");
-    button.onclick = () => handleAnswer(button, question.answer);
-    choicesContainer.appendChild(button);
-  });
-}
-
-function handleAnswer(button, correctAnswer) {
-  const choices = document.querySelectorAll(".choice-btn");
-  choices.forEach(btn => {
-    btn.disabled = true;
-    if (btn.textContent === correctAnswer) btn.classList.add("correct");
-  });
-
-  if (button.textContent === correctAnswer) {
-    score++;
-    document.getElementById("feedback").textContent = "Correct!";
+  // Alternate background
+  if (index % 2 === 0) {
+    questionArea.classList.remove("pastel-lavender");
+    questionArea.classList.add("pastel-peach");
   } else {
-    button.classList.add("wrong");
-    document.getElementById("feedback").textContent = `Wrong! Correct answer: ${correctAnswer}`;
+    questionArea.classList.remove("pastel-peach");
+    questionArea.classList.add("pastel-lavender");
   }
 
-  answeredCount++;
-  document.getElementById("next-btn").disabled = false;
+  // Hide next button until a choice is clicked
+  nextBtn.style.display = "none";
 }
 
-function showQuote() {
-  document.getElementById("question-area").classList.add("hidden");
-  document.getElementById("quote-area").classList.remove("hidden");
+function handleChoiceClick(event) {
+  const choiceIndex = choices.indexOf(event.target);
+  const correctIndex = questions[currentQuestionIndex].answer;
 
-  const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
-  document.getElementById("quote-text").textContent = `"${randomQuote.quote}"`;
-  document.getElementById("quote-image").src = randomQuote.image;
+  // Disable all buttons
+  choices.forEach(btn => btn.disabled = true);
+
+  // Highlight correct/incorrect
+  if (choiceIndex === correctIndex) {
+    event.target.classList.add("correct");
+  } else {
+    event.target.classList.add("wrong");
+    choices[correctIndex].classList.add("correct");
+  }
+
+  // Show next button
+  nextBtn.style.display = "block";
 }
 
-document.getElementById("next-btn").addEventListener("click", showQuote);
-
-document.getElementById("quote-next-btn").addEventListener("click", () => {
-  document.getElementById("quote-area").classList.add("hidden");
-  document.getElementById("question-area").classList.remove("hidden");
-
+function nextQuestion() {
   currentQuestionIndex++;
-  if (currentQuestionIndex >= questions.length) {
-    questions = shuffleArray(questions);
-    currentQuestionIndex = 0;
+  if (currentQuestionIndex < questions.length) {
+    loadQuestion(currentQuestionIndex);
+  } else {
+    // End of quiz, redirect to results
+    window.location.href = "results.html";
   }
+}
 
-  showQuestion();
-});
+// =============================
+// Event Listeners
+// =============================
+choices.forEach(btn => btn.addEventListener("click", handleChoiceClick));
+nextBtn.addEventListener("click", nextQuestion);
 
-// Quit quiz — save score and redirect to results page
-document.getElementById("quit-btn").addEventListener("click", () => {
-  localStorage.setItem('score', score);
-  localStorage.setItem('answeredCount', answeredCount);
-  window.location.href = 'results.html';
-});
+// =============================
+// Initialize
+// =============================
+loadQuestion(currentQuestionIndex);
