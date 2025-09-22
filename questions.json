@@ -243,8 +243,82 @@
     "question": "Who is Emily's fashion consultant?",
     "choices": ["Anna", "Miss Celine", "Ms. Patty", "Lulu"],
     "answer": "Miss Celine"
+  },
+  {
+    "question": "What was the length of measurement called that was used specifically at Yale?",
+    "choices": ["Spork","Yike","Kropog","Krigop"],
+    "answer" : "Kropog"
+  ],
+  {
+    "question": "What was the name printed on Sookie's wedding invitiations?",
+    "choices": ["Suzie","Sara","Sam","Stephanie"],
+    "answer": "Suzie"
+  },
+  {
+    "question": "When Rory moved out of her grandparents house, whose home did she move into?",
+    "choices": ["Lorelai's", "Lane's", "Luke's", "Babette's"],
+    "answer": "Lane's"
+  },
+  {
+    "question": "What item did Rory steal when she had her first kiss?",
+    "choices": ["Corn Starch", "Mouse Trap", "Lettuce", "Pop"],
+    "answer": "Corn Starch"
+  },
+  {
+    "question": "What movie did Lorelai and Rory watch the first time Dean came over?",
+    "choices": ["Willy Wonka", "Casablanca", "You've Got Mail", "Gladiator"],
+    "answer": "Willy Wonka"
+  },
+  {
+    "question": "What food item did Lorelai eat that made her think she was pregnant?",
+    "choices": ["Orange", "Salad", "Apple", "Corn"],
+    "answer": "Apple"
+  },
+  {
+    "question": "What was the name in Rory's first school ID at Yale?",
+    "choices": ["Rory","Lorelai","Leigh","Rony"],
+    "answer": "Rony"
+  },
+  {
+    "question": "What was the name of Jackson's cousin that went on a blind date with Lorelai?",
+    "choices": ["Bo", "Rune","Mike","Alex"],
+    "answer": "Rune"
+  },
+  {
+    "question": "What did Emily make Rory watch videotapes of to hold her hostage",
+    "choices": ["Ballroom Dancing", "Dinner Etiquette", "Family Videos", "Vacation Slide Shows"],
+    "answer": "Ballroom Dancing"
+  },
+  {
+    "question": "What is Lorelai's middle name?",
+    "choices": ["Victoria", "Trix", "Kim", "Lynn"],
+    "answer": "Victoria"
+  },
+  {
+    "question": "Who crashed a vehicle into Luke's diner?",
+    "choices": ["Zack", "Jess", "Rory", "Kirk"],
+    "answer": "Kirk"
+  },
+  {
+    "question": "Whose vehicle was crashed into Luke's diner?",
+    "choices": ["Taylor","Chris","Michel","Jackson"]
+    "answer": "Taylor"
+  },
+  {
+    "question": "What mask was the girl wearing when Rory sees her in the bathroom at Yale?",
+    "choices": ["Lion", "Zebra", "Tiger", "Gorilla"],
+    "answer": "Gorilla"
+  },
+  {
+    "question": "When Michel babysits for Sookie, what does he think the baby's name is?",
+    "choices": ["Davey", "Truman", "Theo", "Jack"],
+    "answer": "Truman"
+  },
+  {
+    "question": "What is the name of Lane's band?",
+    "choices": ["Hep Alien", "Devils Advocate", "Follow Me To The Edge Of The Dessert", "Dave Plus Three"],
+    "answer": "Hep Alien"
   }
-]
-
+  
 
 
