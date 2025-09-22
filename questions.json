@@ -242,7 +242,8 @@
   {
     "question": "Who is Emily's fashion consultant?",
     "choices": ["Anna", "Miss Celine", "Ms. Patty", "Lulu"],
-    "answers": "Miss Celine"
+    "answer": "Miss Celine"
   }
 ]
+
 
