@@ -1,0 +1,55 @@
+[
+  {
+    "quote": "Oy with the poodles already!",
+    "image": "images/LorelaiPoodles.jpg"
+  },
+  {
+    "quote": "Coffee, coffee, coffee!",
+    "image": "images/LorelaiCoffeeX3.jpg"
+  },
+  {
+    "quote": "I live in two worlds, one is a world of books.",
+    "image": "images/RoryValSpeech.jpg"
+  },
+  {
+    "quote": "This is a jumbo-coffee morning. I need coffee in an IV.", 
+    "image": "images/LorelaiCoffeeIV.jpg"
+  },
+  {
+    "quote": "I smell snow.",
+    "image": "images/LorelaiSnow.jpg"
+  },
+  {
+    "quote": "I don’t like Mondays, but unfortunately, they come around eventually.",
+    "image": "images/LorelaiMondays.jpg"
+  },
+  {
+    "quote": "I’m afraid that once your heart is involved, it all comes out in moron.",
+    "image": "images/LorelaiMoron.jpg"
+  },
+  {
+    "quote": "Who cares if I'm pretty if I fail my finals.",
+    "image": "images/RoryFail.jpg"
+  },
+  {
+    "quote": "A little nervous breakdown can work wonders for a girl.",
+    "image": "images/RoryMental.jpg"
+  },
+  {
+    "quote": "You jump, I jump, Jack.",
+    "image" : "images/RoryJump.jpg"
+  },
+  {
+    "quote": "I want to get the healthy glow of someone who goes consistently to the gym without actually having to go, of course.",
+    "image": "images/KirkJuice.jpg"
+  },
+  {
+    "quote": "I'm so damn lonely, not even Animal Planet does it for me anymore.",
+    "image": "images/KirkAP.jpg"
+  },
+  {
+    "quote": "People are particularly stupid today. I can't talk anymore.",
+    "image": "images/MichelStupid.jpg"
+  }
+
+]

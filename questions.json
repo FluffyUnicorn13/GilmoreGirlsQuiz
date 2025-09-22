@@ -1,0 +1,233 @@
+[
+  {
+    "question": "Where does Rory attend college?",
+    "choices": ["Harvard", "Yale", "Princeton", "Stanford"],
+    "answer": "Yale"
+  },
+  {
+    "question": "Who owns Luke's Diner?",
+    "choices": ["Kirk", "Luke", "Taylor", "Sookie"],
+    "answer": "Luke"
+  },
+  {
+    "question": "What is the name of Lorelai's dog?",
+    "choices": ["Paul Anka", "Cinnamon", "Brian", "Bob"],
+    "answer": "Paul Anka"
+  },
+  {
+    "question": "What is the name of Rory's best friend?",
+    "choices": ["Paris", "Lane", "Madeline", "April"],
+    "answer": "Lane"
+  },
+  {
+    "question": "What is the name of the town where the show is set?",
+    "choices": ["Stars Hollow", "Riverdale", "Sunnydale", "Mystic Falls"],
+    "answer": "Stars Hollow"
+  },
+  {
+    "question": "Who is Rory's first boyfriend?",
+    "choices": ["Jess", "Dean", "Logan", "Tristan"],
+    "answer": "Dean"
+  },
+  {
+    "question": "What is the name of Lorelai's mother?",
+    "choices": ["Emily", "Sookie", "Babette", "Trix"],
+    "answer": "Emily"
+  },
+  {
+    "question": "What is the name of the inn that Lorelai and Sookie work at?",
+    "choices": ["The Dragonfly Inn", "The Gilded Lily", "The Rosewood Inn", "The Blue Moon Inn"],
+    "answer": "The Dragonfly Inn"
+  },
+  {
+    "question": "What is the name of Rory's younger brother?",
+    "choices": ["Logan", "Jess", "Dean", "None"],
+    "answer": "None"
+  },
+  {
+    "question": "What is the name of the actor who plays Luke?",
+    "choices": ["Scott Patterson", "Matt Czuchry", "Jared Padalecki", "Keiko Agena"],
+    "answer": "Scott Patterson"
+  },
+  {
+    "question": "What is the name of the actor who plays Lorelai?",
+    "choices": ["Lauren Graham", "Alexis Bledel", "Kelly Bishop", "Melissa McCarthy"],
+    "answer": "Lauren Graham"
+  },
+  {
+    "question": "What is the name of the actor who plays Rory?",
+    "choices": ["Alexis Bledel", "Lauren Graham", "Kelly Bishop", "Melissa McCarthy"],
+    "answer": "Alexis Bledel"
+  },
+  {
+    "question":"Where did Sookie work with Joe?", 
+    "choices": ["Deerfield Lodge", "Oak Tree Bed & Breakfast", "Pacos Tacos", "The Gilded Lily"],
+    "answer": "Deerfield Lodge"
+  },
+  {
+    "question":"Who is the headmaster at Chilton?",
+    "choices": ["Charleston", "Medina", "Michele", "Fleming"],
+    "answer": "Charleston"
+  },
+  {
+    "question":"What did Lorelai name the fish she caught when she went fishing with Max?", 
+    "choices": ["Lane", "Anna", "Shirley", "Jane"],
+    "answer": "Jane"
+  },
+    {
+    "question":"What book did Jess 'borrow' from Rory?", 
+    "choices": ["Howl", "Oliver Twist", "Swan's Way", "Anna Karenina"],
+    "answer": "Howl"
+  },
+  {
+    "question": "What number does Rory have on her back for the Dance Marathon?",
+    "choices": ["78", "76", "67", "17"],
+    "answer": "67"
+  },
+  {
+    "question" :"What flowers does Max Medina have delivered to The Dragonfly Inn?",
+    "choices": ["Roses", "Carnations", "Lilies", "Daisies"],
+    "answer": "Daisies"
+  },
+    {
+    "question" :"What is the name of the Novel Jess wrote?",
+    "choices": ["The Separation", "The Subject", "The Subsect", "The Tea"],
+    "answer": "The Subsect"
+  },
+    {
+    "question" :"What is the name of the publisher Jess works for?",
+    "choices": ["Trental Books", "Scholastic Books", "Trench Books", "Truncheon Books"],
+    "answer": "Truncheon Books"
+  },
+  {
+    "question" :"How many pairs of Jimmy Choos did Lorelai figure out she could buy with the money from her dad?",
+    "choices": ["100", "125", "150", "170"],
+    "answer": "150"
+  },
+  {
+    "question": "What is the name of the secret society Logan is in?",
+    "choices": ["The Life and Death Brigade", "The Life and Death Idea", "The Puffs", "The Trust Fund Kids"],
+    "answer": "The Life and Death Brigade"
+  },
+  {
+    "question": "What is the license plate number on Lorelai's Jeep?",
+    "choices": ["937-G5R","956-G4P","397-G9Q","793-R5G"],
+    "answer": "937-G5R"
+  },
+  {
+    "question": "What was Luke's dad's Hardware Store called?",
+    "choices": ["Williams Hardware","Danes Hardware","W. Danes Hardware","Danes Odds and Ends"],
+    "answer": "Williams Hardware"
+  },
+  {
+    "question": "What does Richard Gilmore eat for breakfast everyday?",
+    "choices": ["Half a Grapefruit","Half a Orange","Oatmeal","Toast"],
+    "answer": "Half a Grapefruit"
+  },
+  {
+    "question": "How many community service hours does Rory get?",
+    "choices": ["600","500","300","200"],
+    "answer": "300"
+  },
+  {
+    "question": "During which class did Lorelai break her leg?",
+    "choices": ["Yoga","Pilates","Zumba","Pole Dancing"],
+    "answer": "Yoga"
+  },
+  {
+    "question": "What was Sean Gunn's characters name in the pilot?",
+    "choices": ["Mike","Michael","Mick","Mickey"],
+    "answer": "Mick"
+  },
+  {
+    "question": "When Lorelai and Emily go the the spa, what was the name of the lipstick Emily borrows?",
+    "choices": ["Vicious Trollop","Femme Fatale","Lady Of The Night","Red"],
+    "answer": "Vicious Trollop"
+  },
+  {
+    "question": "What state was Richard working in when Emily had her botched LASIK?",
+    "choices": ["South Dakota","North Dakota","Philadelphia","Ohio"],
+    "answer": "South Dakota"
+  },
+  {
+    "question": "What movie did Rory bring Christopher to cheer him up after his dad passed?",
+    "choices": ["Casablanca","Hard Bodies","Planet of the Apes","Terminator"],
+    "answer": "Planet of the Apes"
+  },
+  {
+    "question": "What was the name of Babette's cat that they held a funeral for?",
+    "choices": ["Cumin","Cinnamon","Apricot","Fluffy"],
+    "answer": "Cinnamon"
+  },
+  {
+    "question": "What was Kirk's cats name?",
+    "choices": ["Luke","Captain","Trekkie","Kirk"],
+    "answer": "Kirk"
+  },
+  {
+    "question": "What did Jackson find growing in a back field on his property?",
+    "choices": ["Marijuana","Cucumbers","Pickles","Poppies"],
+    "answer": "Marijuana"
+  },
+  {
+    "question": "What was the name of Luke's niece?",
+    "choices": ["Doula","April","Georgia","Cindy"],
+    "answer": "Doula"
+  },
+  {
+    "question": "What sandwich did Luke remove when he made new menus?",
+    "choices": ["BLT","Club Sandwich","Grilled Cheese","Monte Cristo"],
+    "answer": "Monte Cristo"
+  },
+  {
+    "question": "What park in New York did Rory find Jess at?",
+    "choices": ["Washington Square Park","Central Park","Brooklyn Bridge Park","Bryant Park"],
+    "answer": "Washington Square Park"
+  },
+  {
+    "question": "What were Paris's PSAT scores?",
+    "choices": ["730 Verbal, 750 Math","740 Verbal, 750 Math","700 Verbal, 730 Math","680 Verbal, 700 Math"],
+    "answer": "730 Verbal, 750 Math"
+  },
+  {
+    "question": "Who did Mrs. Kim offer to let take Lane to her prom?",
+    "choices": ["Young Chui","Dave","Zack","Chris"],
+    "answer": "Young Chui"
+  },
+  {
+    "question": "What dish did Lane eat at her prom?",
+    "choices": ["Chicken Piccata","Spaghetti","Chicken Alfredo","Chicken Florentine"],
+    "answer": "Chicken Piccata"
+  },
+  {
+    "question": "In the flashback, what does Lorelai throw on the floor?",
+    "choices": ["Sweater","Backpack","Jacket","Skirt"],
+    "answer": "Sweater"
+  },
+  {
+    "question": "",
+    "choices": ["","","",""],
+    "answer": ""
+  },
+  {
+    "question": "",
+    "choices": ["","","",""],
+    "answer": ""
+  },
+  {
+    "question": "",
+    "choices": ["","","",""],
+    "answer": ""
+  },
+  {
+    "question": "",
+    "choices": ["","","",""],
+    "answer": ""
+  },
+  {
+    "question": "",
+    "choices": ["","","",""],
+    "answer": ""
+  }
+
+]
