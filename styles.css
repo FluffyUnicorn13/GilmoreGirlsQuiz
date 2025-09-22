@@ -84,8 +84,11 @@ body.login-page {
 /* Coffee cup logo */
 .coffee-cup {
     width: 100px;
-    margin-bottom: 1rem;
+    height: auto;  /* keep aspect ratio */
+    display: block;
+    margin: 1rem auto;
 }
+
 
 /* =======================================
    QUIZ PAGE
@@ -254,3 +257,4 @@ body.results-page {
     max-width: 250px;
     margin: 1rem auto;
 }
+
