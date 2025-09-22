@@ -248,7 +248,7 @@
     "question": "What was the length of measurement called that was used specifically at Yale?",
     "choices": ["Spork","Yike","Kropog","Krigop"],
     "answer" : "Kropog"
-  ],
+  },
   {
     "question": "What was the name printed on Sookie's wedding invitiations?",
     "choices": ["Suzie","Sara","Sam","Stephanie"],
@@ -320,5 +320,6 @@
     "answer": "Hep Alien"
   }
   
+
 
 
