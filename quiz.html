@@ -7,35 +7,23 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body class="quiz-page">
+
   <div class="quiz-container">
+    <!-- Question Area -->
+    <div id="question-area" class="screen pastel-peach">
+      <p id="question-text">Question will appear here</p>
 
-    <!-- QUESTION AREA -->
-    <div id="question-area">
-      <h2 id="question-text"></h2>
-      <div id="choices-container"></div>
-      <p id="feedback"></p>
-      <button id="next-btn" disabled>Next</button>
-      <button id="quit-btn">Quit Quiz</button>
+      <button class="choice-btn" id="choice1">Choice 1</button>
+      <button class="choice-btn" id="choice2">Choice 2</button>
+      <button class="choice-btn" id="choice3">Choice 3</button>
+      <button class="choice-btn" id="choice4">Choice 4</button>
     </div>
 
-    <!-- QUOTE AREA -->
-    <div id="quote-area" class="hidden">
-      <p id="quote-text"></p>
-      <img id="quote-image" src="" alt="Gilmore Girls quote">
-      <button id="quote-next-btn">Next Question</button>
-    </div>
-    
+    <!-- Next / Quit Buttons -->
+    <button id="next-btn">Next Question</button>
+    <button id="quit-btn" onclick="window.location.href='index.html'">Quit</button>
   </div>
 
-  <!-- RESULTS -->
-<div id="results" class="hidden">
-  <h2>Quiz Results</h2>
-  <p id="score-text"></p>
-  <button id="download-btn">Download Results</button>
-  <button onclick="window.location.href='index.html'">Restart</button>
-</div>
-
-
-  <script src="script.js"></script>
+  <script src="quiz.js"></script>
 </body>
 </html>
