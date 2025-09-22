@@ -301,7 +301,7 @@
   },
   {
     "question": "Whose vehicle was crashed into Luke's diner?",
-    "choices": ["Taylor","Chris","Michel","Jackson"]
+    "choices": ["Taylor","Chris","Michel","Jackson"],
     "answer": "Taylor"
   },
   {
@@ -320,6 +320,7 @@
     "answer": "Hep Alien"
   }
   
+
 
 
 
