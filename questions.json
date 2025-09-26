@@ -280,7 +280,7 @@
     "answer": "Rune"
   },
   {
-    "question": "What did Emily make Rory watch videotapes of to hold her hostage",
+    "question": "What did Emily make Rory watch videotapes of to hold her hostage?",
     "choices": ["Ballroom Dancing", "Dinner Etiquette", "Family Videos", "Vacation Slide Shows"],
     "answer": "Ballroom Dancing"
   },
@@ -317,7 +317,7 @@
   {
     "question": "When the Independence Inn catches fire, how does Rory entertain the kids?",
     "choices": ["Shadow Puppets","Reads a Book","Sings a Song","Sock Puppets"],
-    "answer":""
+    "answer":"Sock Puppets"
   },
   {
     "question":"What does Paris watch after the CSPAN speech debacle?",
@@ -341,7 +341,7 @@
   },
   {
     "question":"Why was Lorelai a sore spot in Nicole and Luke's relationship?",
-    "choices":["She can tell he loves her","He talks about her a lot on their first date","He's always fixing things at her house","Luke and Lorelai have inside jokes"],
+    "choices":["She can tell he loves her","He talked about her a lot on their first date","He's always fixing things at her house","Luke and Lorelai have inside jokes"],
     "answer":"He talks about her a lot on their first date"
   },
   {
@@ -395,6 +395,7 @@
     "answer":"Murray"
   }
 ]
+
 
 
 
