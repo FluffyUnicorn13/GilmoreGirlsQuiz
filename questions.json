@@ -150,11 +150,6 @@
     "answer": "South Dakota"
   },
   {
-    "question": "What movie did Rory bring Christopher to cheer him up after his dad passed?",
-    "choices": ["Casablanca","Hard Bodies","Planet of the Apes","Terminator"],
-    "answer": "Planet of the Apes"
-  },
-  {
     "question": "What was the name of Babette's cat that they held a funeral for?",
     "choices": ["Cumin","Cinnamon","Apricot","Fluffy"],
     "answer": "Cinnamon"
@@ -318,8 +313,89 @@
     "question": "What is the name of Lane's band?",
     "choices": ["Hep Alien", "Devils Advocate", "Follow Me To The Edge Of The Dessert", "Dave Plus Three"],
     "answer": "Hep Alien"
+  },
+  {
+    "question": "When the Independence Inn catches fire, how does Rory entertain the kids?",
+    "choices": ["Shadow Puppets","Reads a Book","Sings a Song","Sock Puppets"],
+    "answer":""
+  },
+  {
+    "question":"What does Paris watch after the CSPAN speech debacle?",
+    "choices":["Gameshows","Soaps","Sesame Street","Cartoons"],
+    "answer":"Soaps"
+  },
+  {
+    "question":"Which family shows up and displaces Lorelai after the fire at the Independence Inn?",
+    "choices":["The Hangitoals","The Hatlestads","The Gilmores","The Heidsmans"],
+    "answer":"The Hatlestads"
+  },
+  {
+    "question":"Where does Lorelai spend the night when she is displaced after the fire at the Independence Inn?",
+    "choices":["Her Parents House","Sookie's House","Luke's Apartment","Mrs. Slutsky's Apartment"],
+    "answer":"Luke's Apartment"
+  },
+  {
+    "question":"Which is not a reason Rory thinks Young Chui is in love with Lane?",
+    "choices":["Calls her every night","Asks her to tell jokes","Asks to be updated about her math test","Buys her flowers"],
+    "answer":"Buys her flowers"
+  },
+  {
+    "question":"Why was Lorelai a sore spot in Nicole and Luke's relationship?",
+    "choices":["She can tell he loves her","He talks about her a lot on their first date","He's always fixing things at her house","Luke and Lorelai have inside jokes"],
+    "answer":"He talks about her a lot on their first date"
+  },
+  {
+    "question":"What gift does the Poe Society give Lorelai?",
+    "choices":["Raven","Crow","Sloth","Cat"],
+    "answer":"Raven"
+  },
+  {
+    "question":"What is the dish called that Richard makes for Friday night dinner?",
+    "choices":["Alex Cleaver","Josh Knives","Johnny Machete","John Butters"],
+    "answer":"Johnny Machete"
+  },
+  {
+    "question":"What was Tobin's first gift to Lorelai for her birthday?",
+    "choices":["Candle","Jacket","Journal","Bagels"],
+    "answer":"Candle"
+  },
+  {
+    "question":"Which body part does Paris get pierced following Rory's 'advice'",
+    "choices":["Ear","Nose","Tongue","Eyebrow"],
+    "answer":"Nose"
+  },
+  {
+    "question":"What year did Lane hit a snag when she's making a playlist for Lorelai's birthday?",
+    "choices":["1978","1982","1984","1974"],
+    "answer":"1974"
+  }, 
+    {
+    "question":"According to Jess, how far is Yale from Stars Hollow?",
+    "choices":["26.2 miles","28.2 miles","22.8 miles","22.6 mmiles"],
+    "answer":"22.8 miles"
+  },
+  {
+    "question":"What school does Louise go to?",
+    "choices":["Yale","Princton","Brandies","Tulane"],
+    "answer":"Tulane"
+  },
+  {
+    "question":"What does Rory attempt to make the 'Worlds biggest' version of for Lorelai's birthday?",
+    "choices":["Cupcake","Mallowmar","Taco","Pizza"],
+    "answer":"Pizza"
+  },
+  {
+    "question":"How much money does Richard give to Lorelai for her investment?",
+    "choices":["75,000","7,500","57,000","5,700"],
+    "answer":"75,000"
+  },
+  {
+    "question":"What was Lorelai's bunny named?",
+    "choices":["Fresco","Fiesta","Murray","Marshall"],
+    "answer":"Murray"
   }
 ]
+
 
 
 
