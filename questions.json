@@ -342,7 +342,7 @@
   {
     "question":"Why was Lorelai a sore spot in Nicole and Luke's relationship?",
     "choices":["She can tell he loves her","He talked about her a lot on their first date","He's always fixing things at her house","Luke and Lorelai have inside jokes"],
-    "answer":"He talks about her a lot on their first date"
+    "answer":"He talked about her a lot on their first date"
   },
   {
     "question":"What gift does the Poe Society give Lorelai?",
@@ -393,8 +393,10 @@
     "question":"What was Lorelai's bunny named?",
     "choices":["Fresco","Fiesta","Murray","Marshall"],
     "answer":"Murray"
-  }
+  },
+  
 ]
+
 
 
 
