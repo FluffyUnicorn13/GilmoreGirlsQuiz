@@ -393,9 +393,19 @@
     "question":"What was Lorelai's bunny named?",
     "choices":["Fresco","Fiesta","Murray","Marshall"],
     "answer":"Murray"
+  },
+  {
+    "question":"Where do Lorelai and Rory stop on the cab ride home from Yale?",
+    "choices":["Pacos Tacos", "Hectors", "Al's Pancake Wrold", "McDonalds"],
+    "answer":"Hectors"
+  },
+  {
+    "question":"When Lorelai and Rory visit Yale with Richard and Emily, who was the Dean of Admissions that Rory met with?",
+    "choices":["Harris Fellows","Max Medina","Hanlin Charleston","Taylor Doose"],
+    "answer":"Harris Fellows"
   }
-  
 ]
+
 
 
 
