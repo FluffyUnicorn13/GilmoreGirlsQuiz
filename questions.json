@@ -35,7 +35,7 @@
     "answer": "Emily"
   },
   {
-    "question": "What is the name of the inn that Lorelai and Sookie work at?",
+    "question": "What is the name of the inn that Lorelai and Sookie own?",
     "choices": ["The Dragonfly Inn", "The Gilded Lily", "The Rosewood Inn", "The Blue Moon Inn"],
     "answer": "The Dragonfly Inn"
   },
@@ -85,7 +85,7 @@
     "answer": "67"
   },
   {
-    "question" :"What flowers does Max Medina have delivered to The Dragonfly Inn?",
+    "question" :"What flowers does Max Medina have delivered to The Independence Inn?",
     "choices": ["Roses", "Carnations", "Lilies", "Daisies"],
     "answer": "Daisies"
   },
@@ -405,6 +405,7 @@
     "answer":"Harris Fellows"
   }
 ]
+
 
 
 
