@@ -35,7 +35,7 @@
     "answer": "Emily"
   },
   {
-    "question": "What is the name of the inn that Lorelai and Sookie own?",
+    "question": "What is the name of the inn that Lorelai and Sookie work at?",
     "choices": ["The Dragonfly Inn", "The Gilded Lily", "The Rosewood Inn", "The Blue Moon Inn"],
     "answer": "The Dragonfly Inn"
   },
@@ -70,7 +70,7 @@
     "answer": "Charleston"
   },
   {
-    "question":"What did Lorelai name the fish she caught when she went fishing with Alex?", 
+    "question":"What did Lorelai name the fish she caught when she went fishing with Max?", 
     "choices": ["Lane", "Anna", "Shirley", "Jane"],
     "answer": "Jane"
   },
@@ -85,7 +85,7 @@
     "answer": "67"
   },
   {
-    "question" :"What flowers does Max Medina have delivered to The Independence Inn?",
+    "question" :"What flowers does Max Medina have delivered to The Dragonfly Inn?",
     "choices": ["Roses", "Carnations", "Lilies", "Daisies"],
     "answer": "Daisies"
   },
@@ -148,6 +148,11 @@
     "question": "What state was Richard working in when Emily had her botched LASIK?",
     "choices": ["South Dakota","North Dakota","Philadelphia","Ohio"],
     "answer": "South Dakota"
+  },
+  {
+    "question": "What movie did Rory bring Christopher to cheer him up after his dad passed?",
+    "choices": ["Casablanca","Hard Bodies","Planet of the Apes","Terminator"],
+    "answer": "Planet of the Apes"
   },
   {
     "question": "What was the name of Babette's cat that they held a funeral for?",
@@ -233,186 +238,6 @@
     "question": "What concert did Jess take Rory to after the hockey game?",
     "choices": ["The Pixies", "Distiller", "PJ Harvey", "Maroon 5"],
     "answer": "Distiller"
-  },
-  {
-    "question": "Who is Emily's fashion consultant?",
-    "choices": ["Anna", "Miss Celine", "Ms. Patty", "Lulu"],
-    "answer": "Miss Celine"
-  },
-  {
-    "question": "What was the length of measurement called that was used specifically at Yale?",
-    "choices": ["Spork","Yike","Kropog","Krigop"],
-    "answer" : "Kropog"
-  },
-  {
-    "question": "What was the name printed on Sookie's wedding invitiations?",
-    "choices": ["Suzie","Sara","Sam","Stephanie"],
-    "answer": "Suzie"
-  },
-  {
-    "question": "When Rory moved out of her grandparents house, whose home did she move into?",
-    "choices": ["Lorelai's", "Lane's", "Luke's", "Babette's"],
-    "answer": "Lane's"
-  },
-  {
-    "question": "What item did Rory steal when she had her first kiss?",
-    "choices": ["Corn Starch", "Mouse Trap", "Lettuce", "Pop"],
-    "answer": "Corn Starch"
-  },
-  {
-    "question": "What movie did Lorelai and Rory watch the first time Dean came over?",
-    "choices": ["Willy Wonka", "Casablanca", "You've Got Mail", "Gladiator"],
-    "answer": "Willy Wonka"
-  },
-  {
-    "question": "What food item did Lorelai eat that made her think she was pregnant?",
-    "choices": ["Orange", "Salad", "Apple", "Corn"],
-    "answer": "Apple"
-  },
-  {
-    "question": "What was the name in Rory's first school ID at Yale?",
-    "choices": ["Rory","Lorelai","Leigh","Rony"],
-    "answer": "Rony"
-  },
-  {
-    "question": "What was the name of Jackson's cousin that went on a blind date with Lorelai?",
-    "choices": ["Bo", "Rune","Mike","Alex"],
-    "answer": "Rune"
-  },
-  {
-    "question": "What did Emily make Rory watch videotapes of to hold her hostage?",
-    "choices": ["Ballroom Dancing", "Dinner Etiquette", "Family Videos", "Vacation Slide Shows"],
-    "answer": "Ballroom Dancing"
-  },
-  {
-    "question": "What is Lorelai's middle name?",
-    "choices": ["Victoria", "Trix", "Kim", "Lynn"],
-    "answer": "Victoria"
-  },
-  {
-    "question": "Who crashed a vehicle into Luke's diner?",
-    "choices": ["Zack", "Jess", "Rory", "Kirk"],
-    "answer": "Kirk"
-  },
-  {
-    "question": "Whose vehicle was crashed into Luke's diner?",
-    "choices": ["Taylor","Chris","Michel","Jackson"],
-    "answer": "Taylor"
-  },
-  {
-    "question": "What mask was the girl wearing when Rory sees her in the bathroom at Yale?",
-    "choices": ["Lion", "Zebra", "Tiger", "Gorilla"],
-    "answer": "Gorilla"
-  },
-  {
-    "question": "When Michel babysits for Sookie, what does he think the baby's name is?",
-    "choices": ["Davey", "Truman", "Theo", "Jack"],
-    "answer": "Truman"
-  },
-  {
-    "question": "What is the name of Lane's band?",
-    "choices": ["Hep Alien", "Devils Advocate", "Follow Me To The Edge Of The Dessert", "Dave Plus Three"],
-    "answer": "Hep Alien"
-  },
-  {
-    "question": "When the Independence Inn catches fire, how does Rory entertain the kids?",
-    "choices": ["Shadow Puppets","Reads a Book","Sings a Song","Sock Puppets"],
-    "answer":"Sock Puppets"
-  },
-  {
-    "question":"What does Paris watch after the CSPAN speech debacle?",
-    "choices":["Gameshows","Soaps","Sesame Street","Cartoons"],
-    "answer":"Soaps"
-  },
-  {
-    "question":"Which family shows up and displaces Lorelai after the fire at the Independence Inn?",
-    "choices":["The Hangitoals","The Hatlestads","The Gilmores","The Heidsmans"],
-    "answer":"The Hatlestads"
-  },
-  {
-    "question":"Where does Lorelai spend the night when she is displaced after the fire at the Independence Inn?",
-    "choices":["Her Parents House","Sookie's House","Luke's Apartment","Mrs. Slutsky's Apartment"],
-    "answer":"Luke's Apartment"
-  },
-  {
-    "question":"Which is not a reason Rory thinks Young Chui is in love with Lane?",
-    "choices":["Calls her every night","Asks her to tell jokes","Asks to be updated about her math test","Buys her flowers"],
-    "answer":"Buys her flowers"
-  },
-  {
-    "question":"Why was Lorelai a sore spot in Nicole and Luke's relationship?",
-    "choices":["She can tell he loves her","He talked about her a lot on their first date","He's always fixing things at her house","Luke and Lorelai have inside jokes"],
-    "answer":"He talked about her a lot on their first date"
-  },
-  {
-    "question":"What gift does the Poe Society give Lorelai?",
-    "choices":["Raven","Crow","Sloth","Cat"],
-    "answer":"Raven"
-  },
-  {
-    "question":"What is the dish called that Richard makes for Friday night dinner?",
-    "choices":["Alex Cleaver","Josh Knives","Johnny Machete","John Butters"],
-    "answer":"Johnny Machete"
-  },
-  {
-    "question":"What was Tobin's first gift to Lorelai for her birthday?",
-    "choices":["Candle","Jacket","Journal","Bagels"],
-    "answer":"Candle"
-  },
-  {
-    "question":"Which body part does Paris get pierced following Rory's 'advice'",
-    "choices":["Ear","Nose","Tongue","Eyebrow"],
-    "answer":"Nose"
-  },
-  {
-    "question":"What year did Lane hit a snag when she's making a playlist for Lorelai's birthday?",
-    "choices":["1978","1982","1984","1974"],
-    "answer":"1974"
-  }, 
-    {
-    "question":"According to Jess, how far is Yale from Stars Hollow?",
-    "choices":["26.2 miles","28.2 miles","22.8 miles","22.6 mmiles"],
-    "answer":"22.8 miles"
-  },
-  {
-    "question":"What school does Louise go to?",
-    "choices":["Yale","Princton","Brandies","Tulane"],
-    "answer":"Tulane"
-  },
-  {
-    "question":"What does Rory attempt to make the 'Worlds biggest' version of for Lorelai's birthday?",
-    "choices":["Cupcake","Mallowmar","Taco","Pizza"],
-    "answer":"Pizza"
-  },
-  {
-    "question":"How much money does Richard give to Lorelai for her investment?",
-    "choices":["75,000","7,500","57,000","5,700"],
-    "answer":"75,000"
-  },
-  {
-    "question":"What was Lorelai's bunny named?",
-    "choices":["Fresco","Fiesta","Murray","Marshall"],
-    "answer":"Murray"
-  },
-  {
-    "question":"Where do Lorelai and Rory stop on the cab ride home from Yale?",
-    "choices":["Pacos Tacos", "Hectors", "Al's Pancake Wrold", "McDonalds"],
-    "answer":"Hectors"
-  },
-  {
-    "question":"When Lorelai and Rory visit Yale with Richard and Emily, who was the Dean of Admissions that Rory met with?",
-    "choices":["Harris Fellows","Max Medina","Hanlin Charleston","Taylor Doose"],
-    "answer":"Harris Fellows"
   }
+
 ]
-
-
-
-
-
-
-
-
-
-
-

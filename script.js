@@ -4,6 +4,8 @@ let currentQuestionIndex = 0;
 let score = 0;
 let answeredCount = 0;
 
+const quizMode = localStorage.getItem("quizMode") || "trivia";
+
 // Run after DOM is ready
 document.addEventListener('DOMContentLoaded', () => {
   // If the page is opened via file://, fetch() will fail in most browsers.
@@ -32,8 +34,8 @@ document.addEventListener('DOMContentLoaded', () => {
   }
   // Load questions + quotes
   Promise.all([
-    fetch("questions.json").then(res => res.json()),
-    fetch("quotes.json").then(res => res.json())
+    fetch(`gilmore-${quizMode}-questions.json`).then(res => res.json()),
+    fetch(`gilmore-${quizMode}-quotes.json`).then(res => res.json())
   ]).then(([loadedQuestions, loadedQuotes]) => {
     questions = shuffleArray(loadedQuestions || []);
     quotes = loadedQuotes || [];
