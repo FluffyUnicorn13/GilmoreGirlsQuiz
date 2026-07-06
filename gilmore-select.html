@@ -1,10 +1,10 @@
 <!DOCTYPE HTML>
 
-<html lang="eng">
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <title>Gilmore Girls Quiz Select</title>
-        <link rel="stylesheet" href="styles.css"
+        <link rel="stylesheet" href="styles.css">
     </head>
 
     <body class="quiz-page">
@@ -21,7 +21,7 @@
             function startMode(mode)
             {
                 localStorage.setItem("quizMode", mode);
-                window.location.href = "quiz.html"
+                window.location.href = mode === "characters" ? "characters.html" : "quiz.html";
             }
         </script>
     </body>

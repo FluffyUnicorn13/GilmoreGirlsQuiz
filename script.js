@@ -34,8 +34,8 @@ document.addEventListener('DOMContentLoaded', () => {
   }
   // Load questions + quotes
   Promise.all([
-    fetch(`gilmore-${quizMode}-questions.json`).then(res => res.json()),
-    fetch(`gilmore-${quizMode}-quotes.json`).then(res => res.json())
+    fetch("questions.json").then(res => res.json()),
+    fetch("quotes.json").then(res => res.json())
   ]).then(([loadedQuestions, loadedQuotes]) => {
     questions = shuffleArray(loadedQuestions || []);
     quotes = loadedQuotes || [];
