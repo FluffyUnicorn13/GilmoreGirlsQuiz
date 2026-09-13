@@ -99,7 +99,7 @@ body.login-page {
    QUIZ PAGE
 ======================================= */
 body.quiz-page {
-    background: url("images/StarsHollowBG.avif") no-repeat center center fixed;
+    background: #fdf6ff;
     background-size: cover;
     flex-direction: column;
     align-items: center;
