@@ -99,7 +99,7 @@ body.login-page {
    QUIZ PAGE
 ======================================= */
 body.quiz-page {
-    background: #fdf6ff;
+    background: url("images/Q&QBackground.jpg") no-repeat center center fixed;
     background-size: cover;
     flex-direction: column;
     align-items: center;
