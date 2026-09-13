@@ -115,6 +115,10 @@ body.quiz-page {
     width: 100%;
     max-width: 800px;
 }
+.character-page .quiz-container{
+    background: rgba(255, 255, 255, 0.9);
+    border: 6px solid #7b1fa2;
+}
 
 /* Question & Quote screens */
 #question-area, #quote-area {
