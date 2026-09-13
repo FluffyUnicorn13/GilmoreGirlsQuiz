@@ -116,7 +116,7 @@ body.quiz-page {
     max-width: 800px;
 }
 .character-page .quiz-container{
-    background: rgba(255, 255, 255, 0.9);
+    background: #d1aee7;
     border: 6px solid #7b1fa2;
 }
 
