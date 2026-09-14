@@ -14,6 +14,9 @@
             <h1>Character Quiz Results</h1>
 
             <p id="character-score-text"></p>
+            <button id="download-btn">Download Results</button>
+            <button onclick="window.location.href= 'characters.html'">Restart Quiz</button>
+            <button onclick="window.location.href= 'gilmore-select.html'">Choose Another Quiz</button>
         </div>
     </div>
 <script>
@@ -21,6 +24,20 @@
 
     document.getElementById("character-score-text").textContent =
     `You Correctly Named ${score} Characters!`;
+
+    document.getElementById("download-btn").addEventListener("click", () =>{
+        const scoreText = 'Gilmore Girls Character Quiz Results You Correctly Named ${score} Characters!';
+
+        const url = URL.createdObjectURL(blob);
+        a.href = url;
+        a.download = "GilmoreGirlsCharacterQuizResults.txt";
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+
+        URL.revokeObjectURL(url);
+    });
+    
 </script>
 </body>
 </html>
