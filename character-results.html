@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scare=1.0">
+    <title>Character Quiz Results</title>
+    <link rel="stylesheet" href="styles.css?v=3">
+</head>
+
+<body class="results-page">
+
+    <div class="results-background">
+        <div class="results-container">
+            <h1>Character Quiz Results</h1>
+
+            <p id="character-score-text"></p>
+        </div>
+    </div>
+<script>
+    const score = localStorage.getItem("characterScore") || 0;
+
+    document.getElementById("character-score-text").textContent =
+    `You Correctly Named ${score} Characters!`;
+</script>
+</body>
+</html>
