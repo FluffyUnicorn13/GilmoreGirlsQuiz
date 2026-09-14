@@ -267,3 +267,7 @@ body.results-page {
     max-width: 250px;
     margin: 1rem auto;
 }
+
+.wrong-character {
+    color: red;
+}

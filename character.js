@@ -140,6 +140,11 @@ function addCharacter() {
 
         const li = document.createElement("li");
         li.textContent = value;
+
+        if (!validCharacters.includes(value)) {
+            li.classList.add("wrong-character");
+        }
+
         document.getElementById("answers-list").appendChild(li);
     }
 
