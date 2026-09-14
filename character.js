@@ -163,5 +163,6 @@ document.getElementById("submit-btn").addEventListener("click", () =>
         }
     });
 
-    alert(`You got ${score}!`);
+    localStorage.setItem("characterScore", score);
+    window.location.href = "character-results.html";
 });
