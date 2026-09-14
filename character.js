@@ -129,8 +129,8 @@ const validCharacters =[
 
 let userAnswers= [];
 
-document.getElementById("add-btn").addEventListener("click", () =>
-{
+document.getElementById("add-btn").addEventListener("click", addCharacter) 
+function addCharacter() {
     const input = document.getElementById("character-input");
     const value = input.value.trim();
 
@@ -144,6 +144,11 @@ document.getElementById("add-btn").addEventListener("click", () =>
     }
 
     input.value="";
+}
+document.getElementById("character-input").addEventListener("keydown", (event) =>{
+    if (event.key === "Enter"){
+        addCharacter();
+    }
 });
 
 document.getElementById("submit-btn").addEventListener("click", () =>
